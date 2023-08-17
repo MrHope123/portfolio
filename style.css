@@ -67,9 +67,6 @@ header a:hover{
 /*showcase*/
 #About{
 	min-height: 400px;
-	background: url('java_programming_language.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat 0 -400px;
 	text-align: center;
 	color: #ffffff;
 }
