@@ -65,56 +65,70 @@ header a:hover{
 	font-weight: bold;
 }
 /*showcase*/
-#showcase{
+#About{
 	min-height: 400px;
-	background: url('java_programming_language.jpg')no-repeat bottom centre;
+	background: url('java_programming_language.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat 0 -400px;
 	text-align: center;
 	color: black;
 }
-#showcase h1{
+#About h1{
 	margin-top: 100px;
 	font-size: 55px;
 	margin-bottom: 10px;
 }
-#showcase p{
+#About p{
 	font-size: 20px;
 }
-#newsLetter{
+
+img{
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 350px;
+}
+
+#Education{
 	 padding: 15px;
 	 color: #ffffff;
 	 background: #35424a;
 }
-#newsLetter h1{
-	float: left;
-}
-#newsLetter form{
-	float: right;
-	margin-top: 20px;
+
+#Education li{
+	 list-style: none;
+	 font-size: 20px;
 }
 
-#newsLetter input[type="email"]{
-	padding: 4px;
-	height: 25px;
-	width: 250px;
-}
-#Boxes{
+
+#Skills{
 	margin-top: 20px;
+	font-size: 20px;
 }
-#Boxes .Box{
+
+#Contacts{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	font-size: 20px;
+}
+#Skills .Box{
 	float: left;
 	text-align: center;
 	width: 30%;
 	padding: 10px;
 
 }
-#Boxes .Box img{
-	width: 90px;
+#Skills .Box img{
+	border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 350px;
 }
 footer{
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 0px;
 	color: #ffffff;
 	background-color: #e8491d;
 	text-align: center;
